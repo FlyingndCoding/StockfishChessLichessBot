@@ -1,0 +1,28 @@
+token: "xxxxxxxxxxxxxxxx"
+url: "https://lichess.org/"
+engines_dir: "./engines/"
+engine: "lczero"
+weights: "latest.txt"
+max_concurrent_games: 1
+threads:
+supported_variants:
+  - standard
+# - fromPosition
+# - antichess
+# - atomic
+# - chess960
+# - crazyhouse
+# - horde
+# - kingOfTheHill
+# - racingKings
+# - threeCheck
+supported_tc:
+  - ultraBullet
+  - bullet
+  - blitz
+  - rapid
+# - classical
+# - correspondence
+supported_modes:
+  - casual
+  - rated # disable this if your bot doesn't try to win
